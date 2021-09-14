@@ -21,7 +21,6 @@ migrate: ## Migrate database
 	docker compose exec app bundle exec rails db:migrate
 
 init: ## initialize develoment
-	if ! [ -f .env ];then cp .env.sample .env;fi
 	docker compose up -d --build
 	@make install
 	docker compose exec app bundle exec rails db:create
