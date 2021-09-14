@@ -19,3 +19,12 @@ make down
 # コンテナ再起動
 make restart
 ```
+
+## プロジェクトセットアップ
+```bash
+# GitHubからプロジェクトをダウンロード
+git clone git@github.com:yuji-naito/rails_base_project.git
+
+# プロジェクトをビルド
+make init
+```
