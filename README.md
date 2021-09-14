@@ -1,24 +1,21 @@
-# README
+## プロジェクトの概要
+初期画面が表示するだけのベースプロジェクト。
+ここから各必要に応じて機能を追加していくことが可能。
+本プロジェクトはビューを使用する通常のRailsプロジェクト
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## システム情報
+Ruby: 3.0.2
+Rails: 6.1.4
+PostgreSQL: 13.3
 
-Things you may want to cover:
+## コマンド説明
+```bash
+# コンテナ起動
+make up
 
-* Ruby version
+# コンテナ終了
+make down
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# コンテナ再起動
+make restart
+```
